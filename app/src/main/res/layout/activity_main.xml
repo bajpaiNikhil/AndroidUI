@@ -42,7 +42,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="454dp"
         android:layout_weight="1" />
 
     <LinearLayout
@@ -75,4 +75,10 @@
             android:text="Login"
             android:textColor="#E91E63" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/demoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="refresh Button" />
 </LinearLayout>
