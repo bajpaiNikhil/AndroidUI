@@ -20,7 +20,6 @@ class AuthActivity : AppCompatActivity() {
     }
 
 
-
     fun buttonClicked(view: View) {
         Log.d("AUTHACTIVITY" ,"${(view as Button).text} Cliced")
     }
