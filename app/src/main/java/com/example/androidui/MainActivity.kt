@@ -43,9 +43,10 @@ class MainActivity : AppCompatActivity(){
 
     private fun showPopMenu() {
 
-        val pMenu = PopupMenu(this,register)
+        val pMenu = PopupMenu(this , register)
         pMenu.menu.add("Rider")
         pMenu.menu.add("driver")
+
 
         pMenu.setOnMenuItemClickListener {
             when(it.title){
